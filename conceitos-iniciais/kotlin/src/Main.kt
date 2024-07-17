@@ -1,9 +1,12 @@
 
 fun main() {
-    val nome = "Mateus"
-    val sobrenome = "Paulo da Silva"
+    var idade = 30
+    idade+=1
+    idade-=1
+    idade*=2
 
-    println("Olá, me chamo $nome $sobrenome")
-    println("Double: ${Double.MAX_VALUE}")
-    println("Tamanho da string ${nome.length}")
+    println(idade)
+
+    var numero: Float = 10 / 3f
+    println(numero)
 }
